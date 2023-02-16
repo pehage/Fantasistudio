@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@netlify/plugin-contentful-buildtime": "^0.0.1"
+  }
+}
