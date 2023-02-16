@@ -1,10 +1,12 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  
   # Add the following lines for the @netlify/plugin-contentful-buildtime build plugin
   [[plugins]]
     package = "@netlify/plugin-contentful-buildtime"
+    
       [plugins.inputs]
-      # Add your Contentful API keys and space ID here
-      spaceId = "12q7o4hk999q"
-      accessToken = "xUBQIh50NyEVqulTasrjfkjOo0ut4SiLN3HJZ5ZKPPk"
+        # Add your Contentful API keys and space ID here
+        spaceId = "12q7o4hk999q"
+        accessToken = "xUBQIh50NyEVqulTasrjfkjOo0ut4SiLN3HJZ5ZKPPk"
