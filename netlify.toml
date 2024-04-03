@@ -4,7 +4,6 @@
   
   # Add the following lines for the @netlify/plugin-contentful-buildtime build plugin
   [[plugins]]
-    package = "@netlify/plugin-contentful-buildtime"
     
       [plugins.inputs]
         # Add your Contentful API keys and space ID here
